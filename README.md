@@ -16,4 +16,5 @@
             int vavedenotoChislo = int.Parse(Console.ReadLine());
             vavedenotoChislo = (vavedenotoChislo / 10) % 10;
             Console.WriteLine("Числото, което си измислил е: " + vavedenotoChislo);
+            If(vavedenotoChislo<100){Console.WriteLine("Error");}
         }
