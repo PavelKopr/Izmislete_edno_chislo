@@ -13,7 +13,8 @@
             Console.Write("Към резултата добави числото, което се измислил.");
             var dobavenotoChislo = Console.ReadLine();
             Console.Write("Въведи числото, което си получил: ");
-            int vavedenotoChislo = int.Parse(Console.ReadLine());
+            int vavedenochislo = int.Parse(Console.ReadLine());
             vavedenotoChislo = (vavedenotoChislo / 10) % 10;
             Console.WriteLine("Числото, което си измислил е: " + vavedenotoChislo);
+            If(vavedenochislo<100){Console.WriteLine("Error");}
         }
